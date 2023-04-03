@@ -94,7 +94,6 @@ while life_count > 0:
     #print(chosen_word_list)
     if life_count == 0:
         print("Game Over, you lost!")
-        break
     if empty_lines == chosen_word_list:
         print("Congratulations, you won!")
         break
